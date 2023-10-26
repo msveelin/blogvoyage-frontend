@@ -16,7 +16,7 @@
 </template>
 
 <script setup>
-import NavBar from "@/components/Navbar.vue"
+import NavBar from "../components/Navbar.vue"
 import { ref, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
 import { POSTS_BY_CATEGORY } from "@/queries";
