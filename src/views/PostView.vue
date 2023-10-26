@@ -90,7 +90,7 @@ const fetchPostInfo = async () => {
             user.value.isAuthenticated = true
         }
         if (postBySlug.value && postBySlug.value.featuredImage) {
-            const baseMediaURL = "http://localhost:8000/"; // Adjust this URL according to your server configuration
+            const baseMediaURL = "https://vanessabenezeth.pythonanywhere.com/"; // Adjust this URL according to your server configuration
             const featuredImage = postBySlug.value.featuredImage;
             imageUrl.value = baseMediaURL + featuredImage;
         }
